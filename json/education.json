@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "nama": "Pendidikan Usia Dini"
+    },
+    {
+        "id": 2,
+        "nama": "TK"
+    },
+    {
+        "id": 3,
+        "nama": "SD"
+    },
+    {
+        "id": 4,
+        "nama": "SMP"
+    },
+    {
+        "id": 5,
+        "nama": "SMA"
+    },
+    {
+        "id": 6,
+        "nama": "D-1"
+    },
+    {
+        "id": 7,
+        "nama": "D-2"
+    },
+    {
+        "id": 8,
+        "nama": "D-3"
+    },
+    {
+        "id": 9,
+        "nama": "S-1"
+    },
+    {
+        "id": 10,
+        "nama": "S-2"
+    },
+    {
+        "id": 11,
+        "nama": "S-3"
+    }
+]

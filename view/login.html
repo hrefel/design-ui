@@ -8,25 +8,36 @@
         <link rel="stylesheet" href="../css/index.css">
         <link rel="stylesheet" href="../libs/css/loader.css">
         <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../dist/css/iziToast.min.css">
         <title>Document</title>
     </head>
     <body>
         <div uk-scrollspy="target: > div; cls:uk-animation-fade; delay: 500">
             <div class="uk-flex uk-flex-center">
-                <div class="uk-position-center" style="top: 20%">
-                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                <div class="uk-position-center" style="top: 30%">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">                        
                         <div class="uk-container uk-container-expand">
-                            <h3 class="uk-card-title">Please Insert Your Username</h3>
+                            <h3 class="uk-card-title">Insert Your Account</h3>
                             <div class="uk-margin">
                                 <div class="uk-inline">
                                     <span class="uk-form-icon" uk-icon="icon: user"></span>
                                     <input id="userName" class="uk-input"
                                         type="text" placeholder="Username">
                                 </div>
-                                <button class="uk-button uk-button-primary" onclick="login()">
-                                    Login
-                                </button>
                             </div>
+                            <div class="uk-margin">
+                                <div class="uk-inline">
+                                    <span class="uk-form-icon" uk-icon="icon: lock"></span>
+                                    <input id="password" class="uk-input"
+                                        type="text" placeholder="Password">
+                                </div>
+                            </div>
+                            <button class="uk-button uk-button-primary" onclick="login()">
+                                Login
+                            </button>
+                            <button class="uk-button uk-button-primary" onclick="login()">
+                                Sign Up
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -40,6 +51,7 @@
         <script src="../libs/js/uikit-icons.js"></script>
         <script src="../libs/jquery-3.2.1.min.js"></script>
         <script src="../js/main.js"></script>
+        <script src="../dist/js/iziToast.min.js"></script>
         <script src="../js/login-controller.js"></script>
     </body>
 </html>
