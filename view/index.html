@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="../libs/css/uikit.css">
+        <link rel="stylesheet" href="../css/index.css">
+        <title>Refel App</title>
+    </head>
+    <style>
+        #logout {
+            background-color: rgb(255, 255, 255);
+            font-weight: bolder;
+            color: rgb(246, 65, 65);
+            transition: all 1s ease-in-out;
+        }
+        #logout:hover {
+            color:rgb(255, 255, 255);
+            /* border-radius: 50%; */
+            background-color: rgb(224, 255, 245);
+        }
+    </style>
+    <body>
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active:
+            uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+            <nav class="uk-navbar-container" uk-navbar="dropbar: true;
+                dropbar-mode: push" style="position: relative; z-index: 980;">
+                <div class="navbar-header">
+                    <h3>Iseng Aja Dulu</h3>
+                </div>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav" id="menu-navbar">
+                        <li>
+                            <a href="#">Item 1</a>
+                            <div class="uk-navbar-dropdown animated-menu">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="#">Active</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <li class="uk-nav-header">Header</li>
+                                    <li><a href="#" id="getMenu">Item Child 1</a></li>
+                                    <li><a href="#">Item</a></li>
+                                    <!-- <li class="uk-nav-divider"></li> -->
+                                    <li><a href="#">Item</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Item 2</a>
+                            <div class="uk-navbar-dropdown
+                                uk-navbar-dropdown-width-2">
+                                <div class="uk-navbar-dropdown-grid
+                                    uk-child-width-1-2" uk-grid>
+                                    <div>
+                                        <ul class="uk-nav
+                                            uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Active</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-header">Header</li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li><a href="#">Item</a></li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul class="uk-nav
+                                            uk-navbar-dropdown-nav">
+                                            <li class="uk-active"><a href="#">Active</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-header">Header</li>
+                                            <li><a href="#">Item</a></li>
+                                            <li><a href="#">Item</a></li>
+                                            <li class="uk-nav-divider"></li>
+                                            <li>
+                                                <!-- <a href="#" onclick="logout()">
+                                                    <img src="../pub-img/shut-down-icon.svg">
+                                                </a> -->
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-navbar-right">
+                    <ul class="uk-navbar-nav">
+                        <li id="username"></li>
+                        <li>
+                            <a id="logout" href="#">
+                                <img style="width: 20px;height: 20px;" src="../pub-img/logout.svg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="waveWrapper waveAnimation">
+            <div class="waveWrapperInner bgTop">
+              <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+            </div>
+            <div class="waveWrapperInner bgMiddle">
+              <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+            </div>
+            <div class="waveWrapperInner bgBottom">
+              <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+            </div>
+          </div>
+        <script src="../libs/js/uikit.js"></script>
+        <script src="../libs/js/uikit-icons.js"></script>
+        <script src="../libs/jquery-3.2.1.min.js"></script>
+        <script src="../js/main.js"></script>
+        <script src="../js/index-controller.js"></script>
+    </body>
+</html>
