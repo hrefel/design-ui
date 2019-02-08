@@ -8,5 +8,7 @@
 </ul>
 
 Javascript Library: https://jquery.com/
+<br>
 CSS Library: https://getuikit.com/
+<br>
 Backend clone here: https://github.com/hrefel/be-app
