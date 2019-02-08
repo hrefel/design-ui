@@ -39,7 +39,7 @@ let signup = function () {
         });
     } else {
         $.ajax({
-            url: `http://localhost:3000/register/register-user`,
+            url: `http://localhost:3000/users/register`,
             method: 'POST',
             crossDomain: true,
             data: dataSave,

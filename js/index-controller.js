@@ -9,7 +9,7 @@ let authPage = function() {
     if (user == undefined || user == null) {
         return window.location.replace('login.html');
     } else {
-        $('#username').append(`<a class="user-name" href="#">${userParse.name}</a>`);
+        $('#username').append(`<a class="user-name" href="#"><strong style="font-weight:bold">Welcome</strong>, ${userParse.name}</a>`);
     }
 }
 
