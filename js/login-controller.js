@@ -14,10 +14,12 @@ let login = function() {
         "auth-token": `ey${Math.random().toString(36).substr(2, 9)}`
     }
     localStorage.setItem('user', JSON.stringify(userLogin));
-    setTimeout(function(){ 
-        // alert('Hello');
+    setTimeout(function() {
         $('#loader').hide();
         window.location.replace('index.html');
     }, 3000);
     
+}
+let sign = function () {
+    window.location.href = 'sign-up.html'
 }

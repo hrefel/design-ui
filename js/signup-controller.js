@@ -56,7 +56,7 @@ let signup = function () {
                     transitionOut: 'flipOutX',
                 });
             }
-        })
+        });
     }
    
 }
