@@ -7,7 +7,6 @@
     <li>SVG Background Generated from: https://www.svgbackgrounds.com/</li>
 </ul>
 
-Javascript Library: https://jquery.com/
 <br>
 CSS Library: https://getuikit.com/
 <br>
